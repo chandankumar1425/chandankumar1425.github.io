@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <div class="hero">
+        <nav>
+            <img src="./images/Red_White_Creative_Name_Letter_Company_Logo___2_-removebg-preview.png" alt=""
+                class="logo">
+            <ul>
+                <button id="theme-switcher">Switch to Light Theme</button>
+
+                <li><a href="">About</a></li>
+                <li><a href="">Skill</a></li>
+                <li><a href="">Projects</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">Resume </a></li>
+            </ul>
+            <img src="./images/moon.png" alt="" id="icon">
+
+        </nav>
+
+        <div class="info">
+            <h1>I am <span>Chandan</span> Kumar</h1>
+            <h2 id="title">
+                <marquee id="running" behavior="" direction="">Full Stack <span>Web Devloper.</span></marquee>
+            </h2>
+            <p><b> This is my official portfolio website to showcase my all work related to web <br>devlopement and UI
+                    design</b></p>
+            <a href="./Chandan_Kumar Behera_Resume_06-04-2023-20-37-33.pdf" target="_blank">Download CV</a>
+        </div>
+
+        <div class="img-box">
+            <!-- <img src="./images/cicle.svg" alt="" class="back-img"> -->
+            <img id="image" src="./images/IMG-20211111-WA0017__3_-removebg-preview.png" alt="" class="main-img">
+            <!-- <img src="./images/Screenshot_2023-03-17_120122-removebg-preview (1).png" alt="" class="main-img"> -->
+
+        </div>
+    </div>
+
+    <div class="about">All <span id="about">About</span> Me</div>
+    <div class="aboutdetail">
+        <div>
+
+        </div>
+        <div>
+            <img src="https://cdn5.vectorstock.com/i/1000x1000/27/39/smiling-boy-sitting-at-laptop-and-learning-coding-vector-23502739.jpg" alt="">
+        </div>
+
+    </div>
+
+
+
+
+</body>
+
+</html>
+<script>
+    const themeSwitcher = document.getElementById('theme-switcher');
+const root = document.documentElement;
+
+themeSwitcher.addEventListener('click', function() {
+  if (root.style.getPropertyValue('--bg-color') === '#2b2b2b') {
+    root.style.setProperty('--bg-color', '#ffffff');
+    root.style.setProperty('--text-color', '#2b2b2b');
+    themeSwitcher.textContent = 'Switch to Dark Theme';
+  } else {
+    root.style.setProperty('--bg-color', '#2b2b2b');
+    root.style.setProperty('--text-color', '#ffffff');
+    themeSwitcher.textContent = 'Switch to Light Theme';
+  }
+});
+
+</script>
