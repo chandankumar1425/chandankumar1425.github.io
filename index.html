@@ -3,80 +3,303 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="UTF-8">
-    <title>Document</title>
-    <link rel="stylesheet" href="./index.css">
+    <title>Chandan's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="icon" href="./images/blacklogo.png" type="image/icon type">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
 </head>
 
 <body>
-    <div class="hero">
-        <nav>
-            <img src="./images/Red_White_Creative_Name_Letter_Company_Logo___2_-removebg-preview.png" alt=""
-                class="logo">
-            <ul>
-                <button id="theme-switcher">Switch to Light Theme</button>
+    <!-- Nav bar -->
 
-                <li><a href="">About</a></li>
-                <li><a href="">Skill</a></li>
-                <li><a href="">Projects</a></li>
-                <li><a href="">Contact</a></li>
-                <li><a href="">Resume </a></li>
+    <nav class="navbar">
+        <div class="max-width">
+            <div class="logo">
+                <div>
+                    <a href="#">
+                        <img style="height:60px; width:60px;border-radius: 50%;" src="./images/mainlogo.png" alt="">
+                    </a>
+                </div>
+            </div>
+            <ul class="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#project">Project</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li> <a href="./Chandan_Kumar Behera_Resume.pdf" download target="b
+                    " class="top-btn" onclick="runredirect()">Resume</a></li>
             </ul>
-            <img src="./images/moon.png" alt="" id="icon">
-
-        </nav>
-
-        <div class="info">
-            <h1>I am <span>Chandan</span> Kumar</h1>
-            <h2 id="title">
-                <marquee id="running" behavior="" direction="">Full Stack <span>Web Devloper.</span></marquee>
-            </h2>
-            <p><b> This is my official portfolio website to showcase my all work related to web <br>devlopement and UI
-                    design</b></p>
-            <a href="./Chandan_Kumar Behera_Resume_06-04-2023-20-37-33.pdf" target="_blank">Download CV</a>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
         </div>
+    </nav>
 
-        <div class="img-box">
-            <!-- <img src="./images/cicle.svg" alt="" class="back-img"> -->
-            <img id="image" src="./images/IMG-20211111-WA0017__3_-removebg-preview.png" alt="" class="main-img">
-            <!-- <img src="./images/Screenshot_2023-03-17_120122-removebg-preview (1).png" alt="" class="main-img"> -->
+
+
+    <!-- intro -->
+
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <div class="text-1">Hello World</div>
+                <div class="text-2">I'm Chandan Kumar</div>
+            </div>
+            <div class="text-3"><img
+                    src="https://readme-typing-svg.demolab.com?font=+Ubuntu%2C+sans-serif&weight=500&size=32&pause=1000&color=FF2600&background=AA050500&width=435&lines=Full+Stack-Web+Devloper!;Node+Backend+Devloper!;"
+                    alt="Typing SVG" /></div>
 
         </div>
-    </div>
+    </section>
 
-    <div class="about">All <span id="about">About</span> Me</div>
-    <div class="aboutdetail">
+
+
+    <!-- about -->
+
+
+    <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title">About me</h2>
+            <div class="about-content">
+                <div class="column left">
+                    <img src="./images/profile pic.png" alt="">
+                </div>
+                <div class="column right">
+                    <div class="text"><span></span></div>
+                    <p id="abt">Hello! <br> My name Chandan Kumar and I enjoy creating things that live on the internet.
+                        I'm a passionate Developer, with strong administrative and communication skills, good attention
+                        to detail and the ability to write efficient code using HTML, CSS, JavaScript.
+                        As I grow and flourish as a Developer, one thing which keeps me going is my inquisitiveness for
+                        discovering new things every day.
+                        Fast Forwarding to today, I built a number of web applications and 3 major projects. Learned a
+                        great deal about teamwork, leadership, and communication. After months of rigorous training,
+                        here I am looking for an opportunity as a Full Stack Web developer.
+                    </p>
+                    <a id="rsm" href="./Chandan_Kumar Behera_Resume.pdf" download target="_blank"
+                        onclick="runredirect()">Download Resume</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- skill -->
+
+    <section id="skills">
+        <h1> Technical Skills</h1>
         <div>
 
+
+            <div>
+                <img src="images/html.png" alt="">
+                <h2>HTML</h2>
+            </div>
+            <div>
+                <img src="images/css.png" alt="">
+                <h2>CSS</h3>
+            </div>
+            <div>
+                <img src="images/javascript.png" alt="">
+                <h2>JavaScript</h2>
+            </div>
+            <div>
+                <img src="./images/bootstrap.png" alt="">
+                <h2> Bootstrap</h2>
+            </div>
+            <div>
+                <img src="./images/typescript.png" alt="">
+                <h2>Type Script</h2>
+            </div>
+            <div>
+                <img src="./images/expressjs.png" alt="">
+                <h2>Express JS</h2>
+            </div>
+            <div>
+                <img src="./images/mongoDb.png" alt="">
+                <h2>Mongo DB</h2>
+            </div>
+            <div>
+                <img src="./images/nodejs(1).jpeg" alt="">
+                <h2>Node JS</h2>
+            </div>
+            <div>
+                <img src="./images/mongoose.png" alt="">
+                <h2>Mongoose JS</h2>
+            </div>
+            <div>
+                <img src="./images/DSA.png" alt="">
+                <h2>DS & Algo</h2>
+            </div>
+            <div>
+                <img src="./images/vscode.png" alt="">
+                <h2>VS Code</h2>
+            </div>
+            <div>
+                <img src="https://cdn-icons-png.flaticon.com/128/733/733553.png" alt="">
+                <h2>Github</h2>
+            </div>
+            <div>
+                <img src="./images/npm.png" alt="">
+                <h2>Npm</h2>
+            </div>
+
+            <div>
+                <img src="https://notionise.com/wp-content/uploads/2021/08/notionise-notion-logo.png" alt="">
+                <h2>Notion</h2>
+            </div>
+            <div>
+                <img src="https://cdn.freebiesupply.com/logos/large/2x/netlify-logo-png-transparent.png" alt="">
+                <h2>Netlify</h2>
+            </div>
+            <div>
+                <img src="./images/cypress.png" alt="">
+                <h2>Cypress</h2>
+            </div>
+            <div>
+                <img src="./images/postman.png" alt="">
+                <h2>Postman</h2>
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+
+    <!-- project -->
+
+
+    <section class="project" id="project">
+        <div class="max-width">
+
+            <h1 class="title">Projects</h1>
+            <div class="project-content">
+
+                <div class="projects">
+                    <div class="image">
+                        <img src="images/firstcry.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h2>Firstcry.com</h2>
+                        <p>Firstcry is an e-commerce website thatsells a variety of children's products likeappeal
+                            clothing, grooming, toys, etc.
+                        </p>
+
+                        <p style="margin-top:20px ; color: rgb(10, 60, 82);">Techstacks : <span>HTML | CSS |
+                                JavaScript</span>
+                        </p>
+                        <p style="margin-top:20px ;color: rgb(10, 60, 82)">Features : <span> HomePage | Signup | Login
+                                | Order | Cart | Payment</span></p>
+
+                        <a href="https://github.com/chandankumar1425/discreet-volcano-9320" target="_blank">🔗Git Repo
+                        </a>
+                        <a href="https://spontaneous-cranachan-a16490.netlify.app/" target="_blank">🔗Website</a>
+                    </div>
+                </div>
+
+                <div class="projects">
+                    <div class="image">
+                        <img src="images/travelocity.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h2>Travelocity Clone</h2>
+                        <p>Travelocity is an e-commerce website that sells a variety of products related to women's
+                            fashion only like tops, jeans, t-shirts, etc.</p>
+                        <p style="margin-top:20px ; color: rgb(10, 60, 82);">Techstacks : <span>HTML | CSS |
+                                JavaScript| Express| MongoDb</span>
+                        </p>
+                        <p style="margin-top:20px ; color: rgb(10, 60, 82);">Features : <span>Homepage | Signup | Login
+                                | Booking | payment | Address</span>
+                        </p>
+
+                        <a href="https://github.com/chandankumar1425/lame-fairies-5020" target="_blank">🔗Git Repo</a>
+                        <a href="https://eclectic-gumdrop-966a5f.netlify.app/" target="_blank">🔗Website</a>
+                    </div>
+                </div>
+
+                <div class="projects">
+                    <div class="image">
+                        <img src="images/anthropolize.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h2>Anthropolize Clone</J>
+                        </h2>
+                        <p>It is a unique, full-lifestyle shopping website, with a mostly exclusive assortment of
+                            clothing, shoes, accessories, beauty, furniture, home décor, garden, bridal, and more.</p>
+                        <p></p>
+                        <p></p>
+                        <p style="margin-top:20px ; color: rgb(10, 60, 82);">Techstacks : <span> HTML, CSS,
+                                JavaScript, Api, Json</span></p>
+                        <p style="margin-top:20px ;color: rgb(10, 60, 82)">Features : <span>Homepage | Signup | Login |
+                                order | payment</span></p>
+                        <a href="https://github.com/Singh-Jii/indigo-expert-8695" target="_blank">🔗Git Repo </a>
+                        <a href="https://anthropolize.netlify.app//" target="_blank">🔗Website</a>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- github -->
+    <div class="github">
+
+        <div>
+            <p><img align="left"
+                    src="https://github-readme-stats.vercel.app/api/top-langs?username=chandankumar1425&show_icons=true&locale=en&layout=compact"
+                    alt="chandankumar1425" /></p>
         </div>
         <div>
-            <img src="https://cdn5.vectorstock.com/i/1000x1000/27/39/smiling-boy-sitting-at-laptop-and-learning-coding-vector-23502739.jpg" alt="">
+            <p>&nbsp;<img align="center"
+                    src="https://github-readme-stats.vercel.app/api?username=chandankumar1425&show_icons=true&locale=en"
+                    alt="chandankumar1425" /></p>
         </div>
+        <div>
+            <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=chandankumar1425&"
+                    alt="chandankumar1425" /></p>
+        </div>
+
 
     </div>
 
 
 
+    <!-- contact -->
+
+    <section class="contact" id="contact">
+        <h2 class="title">Contact</h2>
+        <i class="fas fa-phone-alt"
+            style="border: 0px solid  rgb(10, 60, 82);display:flex; justify-content:center;gap: 5px;margin-bottom: 19px;">
+            <span>+91 6372681115</span></i>
+        <i class="fas fa-envelope"
+            style="border: 0px solid  rgb(10, 60, 82);display:flex; justify-content:center; gap: 5px;margin-bottom: 19px;">
+            <span>chandankumarbehera1425@gmail.com</span></i>
+        <i class="fas fa-address-card"
+            style="border: 0px solid  rgb(10, 60, 82);display:flex; justify-content:center;gap: 10px;margin-bottom: 19px;">
+            <span>Kodala, Odisha</span> </i>
+        </div>
+
+
+
+        <div class="newcont" style="border:0px solid green;width: 250px; margin-bottom: 100px;">
+            <div><a href="https://www.linkedin.com/in/kaushikchandan6372/" target="_blank">
+                    <i class="fab fa-linkedin  fa-1x" style="width: 90%;"></i></a></div>
+            <div><a href="https://github.com/chandankumar1425" target="_blank">
+                    <i class="fab fa-github"></i></a></div>
+
+    </section>
 
 </body>
 
 </html>
-<script>
-    const themeSwitcher = document.getElementById('theme-switcher');
-const root = document.documentElement;
-
-themeSwitcher.addEventListener('click', function() {
-  if (root.style.getPropertyValue('--bg-color') === '#2b2b2b') {
-    root.style.setProperty('--bg-color', '#ffffff');
-    root.style.setProperty('--text-color', '#2b2b2b');
-    themeSwitcher.textContent = 'Switch to Dark Theme';
-  } else {
-    root.style.setProperty('--bg-color', '#2b2b2b');
-    root.style.setProperty('--text-color', '#ffffff');
-    themeSwitcher.textContent = 'Switch to Light Theme';
-  }
-});
-
-</script>
+<script src="index.js"></script>
