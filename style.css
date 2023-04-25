@@ -4,7 +4,6 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    
 }
 .max-width{
     margin: 1300px;
@@ -70,9 +69,6 @@
     cursor: pointer;
     display:none;
 }
-.slide{
-    width: 60%;
-}
 
 
 
@@ -86,8 +82,6 @@
     font-family: 'Ubuntu',sans-serif;
 }
 .home .max-width{
-    /* display: flex; */
-    /* justify-content:left; */
     margin: auto 0 auto 40px;
 }
 .home .home-content .text-1{
@@ -98,16 +92,24 @@
     font-size: 55px;
     font-weight: 600;
     margin-left: -3px;
-    /* margin-bottom:20px; */
 }
-.home .home-content .text-3 img{
+.home .home-content .multi-text{
     font-size: 40px;
     margin: 5px 0;
+    /* font-weight: 500; */    
+
+}
+.home-content h4{
+    color: red;
+    font-size: 3rem;
     font-weight: 700;
 }
-.home .home-content .text-3 span{
+
+.home .home-content .multi-text span{
     color: crimson;
     font-weight: 500;
+    font-size: 40px;
+
 }
 .home .home-content a,.project a{
     display: inline-block;
@@ -155,7 +157,10 @@ section .title, #skills>h1{
    
 
 }
-
+/* .skills-content{
+     grid-template-columns: repeat(2, 2fr); 
+    grid-template-columns: repeat(4, max-content);
+} */
 #project.project{
    background-color:white;;
 }
@@ -1001,13 +1006,4 @@ font-size: 25px;
 }
 #abt{
     font-size: 26px;
-}
-
-
-.github{
-    width: 80%;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    
 }
