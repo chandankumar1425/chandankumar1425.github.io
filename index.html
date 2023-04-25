@@ -17,33 +17,33 @@
 </head>
 
 <body>
-         <div id="projects"></div>
-    <!-- Nav bar -->
+    <div id="projects">
+        <!-- Nav bar -->
 
-    <nav class="navbar" id="nav-menu" class="nav-link.home">
-        <div class="max-width" class="nav-link.home">
-            <div class="logo">
-                <div>
-                    <a href="#">
-                        <img style="height:60px; width:60px;border-radius: 50%;" src="./images/mainlogo.png" alt="">
-                    </a>
+        <nav class="navbar" id="nav-menu" class="nav-link.home">
+            <div class="max-width" class="nav-link.home">
+                <div class="logo">
+                    <div>
+                        <a href="#">
+                            <img style="height:60px; width:60px;border-radius: 50%;" src="./images/mainlogo.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <ul class="menu"  id="nav-menu">
+                    <li class="nav-link.home"><a class="nav-link.home" href="#home">Home</a></li>
+                    <li class="nav-link.about"><a class="nav-link.about" href="#about">About Me</a></li>
+                    <li class="nav-link.skills"><a class="nav-link.skills" href="#skills">Skills</a></li>
+                    <li class="nav-link.projects"><a class="nav-link.projects" href="#project">Project</a></li>
+                    <li class="nav-link.contact"><a class="nav-link.contact" href="#contact">Contact</a></li>
+                    <li id="resume-button-1"> <a id="resume-button-1" href="./Chandan_Kumar Behera_Resume.pdf" download
+                            target="b" class="top-btn" onclick="runredirect()">Resume</a></li>
+                </ul>
+                <div class="menu-btn">
+                    <i class="fas fa-bars"></i>
                 </div>
             </div>
-            <ul class="menu">
-                <li class="nav-link.home"><a class="nav-link.home" href="#home">Home</a></li>
-                <li class="nav-link.about"><a class="nav-link.about" href="#about">About Me</a></li>
-                <li class="nav-link.skills"><a class="nav-link.skills" href="#skills">Skills</a></li>
-                <li class="nav-link.projects"><a class="nav-link.projects" href="#project">Project</a></li>
-                <li class="nav-link.contact"><a class="nav-link.contact" href="#contact">Contact</a></li>
-                <li id="resume-button-1"> <a id="resume-button-1" href="./Chandan_Kumar Behera_Resume.pdf" download target="b" class="top-btn"
-                        onclick="runredirect()">Resume</a></li>
-            </ul>
-            <div class="menu-btn">
-                <i class="fas fa-bars"></i>
-            </div>
-        </div>
-    </nav>
-
+        </nav>
+    </div>
 
 
     <!-- intro -->
@@ -65,7 +65,7 @@
     <!-- about -->
 
 
-    <section class="about" id="about" id="user-detail-intro" class="home-img">
+    <section class="about" id="about" id="user-detail-intro" class="home-img" id="about.about.section" class="nav-link.about">
         <div class="max-width">
             <h2 class="title">About me</h2>
             <div class="about-content">
@@ -74,7 +74,8 @@
                 </div>
                 <div class="column right" id="user-detail-intro">
                     <div class="text"><span></span></div>
-                    <p id="abt" id="user-detail-intro" id="about.about.section">Hello! <br> My name Chandan Kumar and I enjoy creating things that live on the internet.
+                    <p id="abt" id="user-detail-intro">Hello! <br> My name Chandan Kumar and I enjoy creating things
+                        that live on the internet.
                         I'm a passionate Developer, with strong administrative and communication skills, good attention
                         to detail and the ability to write efficient code using HTML, CSS, JavaScript.
                         As I grow and flourish as a Developer, one thing which keeps me going is my inquisitiveness for
@@ -83,7 +84,7 @@
                         great deal about teamwork, leadership, and communication. After months of rigorous training,
                         here I am looking for an opportunity as a Full Stack Web developer.
                     </p>
-                    <a id="rsm" id="resume-button-1" href="./Chandan_Kumar Behera_Resume.pdf" download target="_blank"
+                    <a id="rsm" id="resume-link-1" href="./Chandan_Kumar Behera_Resume.pdf" download target="_blank"
                         onclick="runredirect()">Download Resume</a>
                 </div>
             </div>
@@ -294,9 +295,9 @@
 
         <div class="newcont" id="contact-github" style="border:0px solid green;width: 250px; margin-bottom: 100px;">
             <div id="contact-github"><a href="https://www.linkedin.com/in/kaushikchandan6372/" target="_blank">
-                    <i class="fab fa-linkedin  fa-1x"   id="contact-github"  style="width: 90%;"></i></a></div>
+                    <i class="fab fa-linkedin  fa-1x" id="contact-github" style="width: 90%;"></i></a></div>
             <div id="contact-github"><a href="https://github.com/chandankumar1425" target="_blank">
-                    <i class="fab fa-github"  id="contact-github"></i></a>
+                    <i class="fab fa-github" id="contact-github"></i></a>
             </div>
 
     </section>
