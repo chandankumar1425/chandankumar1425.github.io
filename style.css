@@ -1,22 +1,23 @@
-
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
 }
-.max-width{
+
+.max-width {
     margin: 1300px;
     padding: 0 80px;
     margin: auto;
- 
+
 }
-.navbar{
+
+.navbar {
     position: fixed;
     width: 100%;
     padding: 30px 0;
     z-index: 999;
-    font-family: 'Ubuntu',sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     transition: all 0.3s ease;
 
 }
@@ -24,188 +25,223 @@
 
 .stats-2 {
 
- 
+
     width: 84%;
     margin: auto;
 }
 
 
-.navbar.sticky{
+.navbar.sticky {
     padding: 1px 0px;
-    background:rgb(10, 60, 82);
+    background: rgb(10, 60, 82);
 }
-.navbar .max-width{
+
+.navbar .max-width {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.navbar .logo a{
+
+.navbar .logo a {
     color: rgb(235, 227, 227);
-   font-size: 35px;
-   font-weight: 600; 
+    font-size: 35px;
+    font-weight: 600;
 }
-.navbar .menu li{
+
+.navbar .menu li {
     list-style: none;
     display: inline-block;
 }
-.navbar .menu li a{
+
+.navbar .menu li a {
     color: rgb(234, 228, 228);
     font-size: 25px;
     font-weight: 500;
     margin-left: 25px;
     transition: color 0.3s ease;
 }
-.navbar .menu li a:hover{
+
+.navbar .menu li a:hover {
     color: crimson;
 
 }
-.navbar .logo a span{
+
+.navbar .logo a span {
     color: crimson;
 }
 
-.menu-btn{
-    color:#fff;
+.menu-btn {
+    color: #fff;
     font-size: 23px;
     cursor: pointer;
-    display:none;
+    display: none;
 }
 
 
 
-.home{
+.home {
     display: flex;
     background: url("https://wallpaperaccess.com/full/4533600.jpg") no-repeat center;
     background-size: cover;
     height: 100vh;
     color: #fff;
     min-height: 500px;
-    font-family: 'Ubuntu',sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
-.home .max-width{
+
+.home .max-width {
     margin: auto 0 auto 40px;
 }
-.home .home-content .text-1{
+
+.home .home-content .text-1 {
     font-size: 27px;
     font-weight: 500;
 }
-.home .home-content .text-2{
+
+.home .home-content .text-2 {
     font-size: 55px;
     font-weight: 600;
     margin-left: -3px;
 }
-.home .home-content .multi-text{
+
+.home .home-content .multi-text {
     font-size: 40px;
     margin: 5px 0;
-    /* font-weight: 500; */    
+    /* font-weight: 500; */
 
 }
-.home-content h4{
+
+.home-content h4 {
     color: red;
     font-size: 3rem;
     font-weight: 700;
 }
 
-.home .home-content .multi-text span{
+.home .home-content .multi-text span {
     color: crimson;
     font-weight: 500;
     font-size: 40px;
 
 }
-.home .home-content a,.project a{
+
+.home .home-content a,
+.project a {
     display: inline-block;
-    background:crimson;
+    background: crimson;
     /* gap: 20px; */
-    color:white;
-    font-size: 25px;
+    color: white;
+    /* font-size: 25px; */
     padding: 12px 36px;
     margin-top: 20px;
     border-radius: 6px;
-    background:rgb(165, 31, 31);
+    background: rgb(165, 31, 31);
     transition: all 0.3s ease;
 }
-.home .home-content a:hover,.project a:hover{
+
+.home .home-content a:hover,
+.project a:hover {
     color: white;
-    background:rgb(19, 11, 76);
+    background: rgb(19, 11, 76);
 }
 
 
 
-section{
+section {
     padding: 100px 0 80px 0;
 }
-.about,.services,.skills,.contact{
-    font-family: 'Poppins',sans-serif;
 
-    background-color:white;
+.about,
+.services,
+.skills,
+.contact {
+    font-family: 'Poppins', sans-serif;
+
+    background-color: white;
 }
-section .title, #skills>h1{
+
+section .title,
+#skills>h1 {
     text-align: center;
     font-size: 50px;
     font-weight: bold;
     margin-bottom: 60px;
     padding-bottom: 20px;
-    font-family: 'Ubuntu',sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
+
 /* .ok{
     width: 80%;
     margin: auto;
 } */
 
-#skills>div>div>h2{
-    font-family: 'Ubuntu',sans-serif;
+#skills>div>div>h2 {
+    font-family: 'Ubuntu', sans-serif;
 }
-.about .about-content,.services .serv-content,.skills .skills-content,.contact .content{
+
+.about .about-content,
+.services .serv-content,
+.skills .skills-content,
+.contact .content {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    justify-content:space-evenly;
-   
+    justify-content: space-evenly;
+
 
 }
-/* .skills-content{
-     grid-template-columns: repeat(2, 2fr); 
-    grid-template-columns: repeat(4, max-content);
-} */
-#project.project{
-   background-color:white;;
+
+
+#project.project {
+    background-color: white;
+    /* border:  2px solid red; */
 }
-.project .project-content{
+
+.project .project-content {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-gap: 50px;
+    gap: 50px;
     justify-content: center;
-    background-color:white;
+    background-color: white;
+    /* border:  2px solid red; */
+
 
 }
+
 .about .about-content .left {
-    width:45%;
+    width: 45%;
 }
-.about .about-content .left img{
+
+.about .about-content .left img {
     /* height:400px; */
     width: 400px;
     object-fit: cover;
     border-radius: 6px;
-    
+
 }
+
 .about .about-content .right {
-    width:55%;
+    width: 55%;
 }
-.about .about-content .right .text{
+
+.about .about-content .right .text {
     font-size: 25px;
     font-weight: 600;
-    margin-bottom:10px ;
+    margin-bottom: 10px;
 }
-.about .about-content .right .text span{
-    color:rgb(10, 60, 82)
+
+.about .about-content .right .text span {
+    color: rgb(10, 60, 82)
 }
-.about .about-content .right p{
-    text-align:justify;
+
+.about .about-content .right p {
+    text-align: justify;
 }
-.about .about-content .right a{
+
+.about .about-content .right a {
     display: inline-block;
-    background:rgb(165, 31, 31);
-    color:white;
+    background: rgb(165, 31, 31);
+    color: white;
     font-size: 20px;
     font-weight: 500;
     padding: 10px 30px;
@@ -214,67 +250,81 @@ gap: 50px;
     border: 2px solid pink;
     transition: all 0.3s ease;
 }
-.about .about-content .right a:hover{
-    color:red(20, 220, 163);
+
+.about .about-content .right a:hover {
+    color: red(20, 220, 163);
     background: black;
 }
-.services{
-    
-    background:rgb(16, 15, 16);          
-    color:#fff
-    
+
+.services {
+
+    background: rgb(16, 15, 16);
+    color: #fff
 }
 
-.services .serv-content .card{
-    width:30%;
+.services .serv-content .card {
+    width: 30%;
     background: rgba(8, 8, 8, 0.859);
     text-align: center;
     border-radius: 6px;
     padding: 80px 25px;
     cursor: pointer;
     transition: all 0.3s ease;
-  
- 
+
+
 }
-.card{
+
+.card {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
+
 /* .card{
 
     height: 270px;
 } */
-.box{
+.box {
     margin-top: -30px;
 
 }
-.services .serv-content .card .box,.skills .skills-content .card .box{
+
+.services .serv-content .card .box,
+.skills .skills-content .card .box {
     transition: all 0.3s ease;
 
-    
+
 }
-.services .serv-content .card:hover,.skills .skills-content .card:hover{
+
+.services .serv-content .card:hover,
+.skills .skills-content .card:hover {
     border: 1 px solid black;
-    background:rgb(165, 31, 31);
+    background: rgb(165, 31, 31);
     color: white;
 
 }
-.services .serv-content .card:hover .box,.skills .skills-content .card:hover .box{
+
+.services .serv-content .card:hover .box,
+.skills .skills-content .card:hover .box {
     transform: scale(1.05);
 }
-.services .serv-content .card i{
+
+.services .serv-content .card i {
     font-size: 50px;
-    color:greenyellow;
+    color: greenyellow;
 
 }
-.services .serv-content .card i .text{
+
+.services .serv-content .card i .text {
     font-size: 25px;
     font-weight: 500;
     margin: 6px 0 7px 0;
 }
-#skills{
+
+#skills {
     background-color: white;
 }
-#skills>h1,.title{
+
+#skills>h1,
+.title {
     width: 90%;
     margin: auto;
     text-align: center;
@@ -282,21 +332,24 @@ gap: 50px;
     color: rgb(10, 60, 82);
     font-size: 50px;
 }
-#skills>div{
+
+#skills>div {
     width: 90%;
     margin: auto;
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
     justify-content: center;
     gap: 45px;
 }
-#skills>div>div{
+
+#skills>div>div {
     padding: 15px 0px;
     text-align: center;
     background-color: rgb(203, 195, 227);
     border-radius: 10px;
 }
-#skills>div>div:hover{
+
+#skills>div>div:hover {
     background-color: rgba(6, 103, 177, 0.08);
     transform: scale(1.1);
     transition: 0.3s;
@@ -304,61 +357,71 @@ gap: 50px;
     border: 1px solid navy;
     border-radius: 15px;
 }
-#skills>div>div>img{
+
+#skills>div>div>img {
     width: 50%;
 }
 
-#skills>div>div>h2{
+#skills>div>div>h2 {
     color: rgb(3, 113, 104);
 }
-.project{
-    background:rgb(218, 223, 223);
-    font-family: 'Ubuntu',sans-serif;
+
+.project {
+    background: rgb(218, 223, 223);
+    font-family: 'Ubuntu', sans-serif;
     text-align: center;
 
 }
-.projects{
-    height:660px;
-    width:38%;
+
+.projects {
+    height: 660px;
+    width: 38%;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    background-color:rgb(216, 210, 234);
+    background-color: rgb(255, 255, 255);
+    /* border:  2px solid red; */
+
 
 }
-.content h2{
+
+.content h2 {
     margin: 20px;
 }
-.content p{
-    width:80%;
-    font-size: 22px;
+
+.content p {
+    width: 80%;
+    font-size: 17px;
     margin: auto;
 }
-.image img{
+
+.image img {
     height: 250px;
-    width:100%;
+    width: 100%;
     display: block;
     margin: auto;
-    margin-top: 10px;
+    margin-top: 40px;
     border-radius: 6px;
     /* border: 1px solid rgb(255, 0, 221); */
+    /* border:2px solid; */
 }
-.outerBox{
+
+.outerBox {
     background-color: #0d1117;
 }
 
-.calendarContainer{
+.calendarContainer {
     display: flex;
     justify-content: center;
     padding: 5%;
-    
+
     color: white;
 }
 
-.calendarContainer .calendarBox{
+.calendarContainer .calendarBox {
     margin: auto;
 }
 
-    
-.calendarContainer .calendarBox > h3{
+
+.calendarContainer .calendarBox>h3 {
     text-align: center;
     border: 3px solid black;
     width: fit-content;
@@ -367,280 +430,312 @@ gap: 50px;
     margin: auto;
     font-size: 20px;
     margin-bottom: 5%;
-    background-color:white;
+    background-color: white;
     color: white;
 }
 
-.graph{
+.graph {
     width: 100%;
     margin: auto;
     display: block;
     text-align: center;
-    background-color:white;
+    background-color: white;
 }
 
-.graph  img{
+.graph img {
     width: 80%;
     margin: auto;
 }
 
-.graph-1{
+.graph-1 {
     display: block;
-    background-color:white;
+    background-color: white;
 }
-.graph-1  img{
+
+.graph-1 img {
     width: 60%;
     margin: auto;
 }
-#links{
-    width:30%;
+
+#links {
+    width: 30%;
     margin: auto;
     margin-top: 20px;
     display: flex;
 }
-#links div{
+
+#links div {
     width: 30%;
     margin: auto;
 }
-.content{
+
+.content {
     justify-content: center;
 
 }
-.contact{
+
+.contact {
     padding-top: 30px;
-    
+
 }
-.newcont{
+
+.newcont {
     margin-bottom: 130px;
 }
 
-.contact .content{
-    width:20%;
- 
+.contact .content {
+    width: 20%;
+
     display: grid;
     margin: auto;
     justify-content: center;
     align-items: center;
 }
-.contact .newcont{
-    width:10%;
+
+.contact .newcont {
+    width: 10%;
     margin: auto;
-    margin-top:10px;
+    margin-top: 10px;
     justify-content: space-evenly;
     display: flex;
 }
-.content i,.newcont i{
+
+.content i,
+.newcont i {
     font-size: 50px;
     color: rgb(123, 22, 22);
     margin-bottom: 15px;
 }
 
-.contact .content i span{
+.contact .content i span {
     font-family: 'Ubuntu', sans-serif;
     font-size: 10px;
     color: #0d1117;
 }
 
-@media all and (min-width: 280px) and (max-width: 653px){
-    .home .home-content .text-2{
+@media all and (min-width: 280px) and (max-width: 653px) {
+    .home .home-content .text-2 {
         font-size: 25px;
         font-weight: 600;
         margin-left: -3px;
     }
-    .project .title,.project .content{
-        color:black;
+
+    .project .title,
+    .project .content {
+        color: black;
     }
-    .project{
+
+    .project {
         background: rgb(217, 230, 230);
-        font-family: 'Ubuntu',sans-serif;
+        font-family: 'Ubuntu', sans-serif;
         text-align: center;
     }
-    .projects{
-        height:900px;
-        width:33%;
+
+    .projects {
+        height: 900px;
+        width: 33%;
         border: 1px solid black;
-          background-color:white;
-    
+        background-color: white;
+
     }
-    .home .home-content a,.project a{
+
+    .home .home-content a,
+    .project a {
         display: inline-block;
-        background:rgb(255, 0, 0);
-        color:white;
+        background: rgb(255, 0, 0);
+        color: white;
         font-size: 8px;
         padding: 12px 36px;
         margin-top: 10px;
         border-radius: 4px;
-        background:red(165, 31, 31);
+        background: red(165, 31, 31);
         transition: all 0.3s ease;
     }
 }
 
-@media all and (min-width: 912px) and (max-width: 1368px){
+@media all and (min-width: 912px) and (max-width: 1368px) {
 
-    .about,.services,.skills,.contact{
-        font-family: 'Poppins',sans-serif;
-        
+    .about,
+    .services,
+    .skills,
+    .contact {
+        font-family: 'Poppins', sans-serif;
+
     }
-    section .title{
+
+    section .title {
         text-align: center;
         font-size: 60px;
         font-weight: 600;
         margin-bottom: 60px;
         padding-bottom: 20px;
-        font-family: 'Ubuntu',sans-serif;
-        
+        font-family: 'Ubuntu', sans-serif;
+
     }
 }
-    .about .about-content,.services .serv-content,.skills .skills-content,.contact .content{
-        display: flex;
-        align-items: center;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-   
+
+.about .about-content,
+.services .serv-content,
+.skills .skills-content,
+.contact .content {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
 }
 
 
 
-@media all and (min-width: 481px) and (max-width: 768px){
-    .calendarContainer{
+@media all and (min-width: 481px) and (max-width: 768px) {
+    .calendarContainer {
         display: flex;
         justify-content: center;
         flex-direction: column;
         padding: 5%;
     }
-    #skills>h1{
+
+    #skills>h1 {
         font-size: 28px;
     }
-    #skills>div{
-        width: 85%; 
-        grid-template-columns: repeat(3,1fr);
+
+    #skills>div {
+        width: 85%;
+        grid-template-columns: repeat(3, 1fr);
         gap: 40px;
     }
-    #skills>div>div{
+
+    #skills>div>div {
         padding: 15px 0px;
     }
-    #skills>div>div>img{
+
+    #skills>div>div>img {
         width: 45%;
     }
-    #skills>div>div:nth-child(3)>img{
+
+    #skills>div>div:nth-child(3)>img {
         width: 35%;
         margin-top: 10px;
         margin-bottom: 8px;
     }
-    #skills>div>div:nth-child(4)>img{
+
+    #skills>div>div:nth-child(4)>img {
         width: 35%;
         margin-top: 10px;
         margin-bottom: 8px;
     }
-    #skills>div>div>h2{
+
+    #skills>div>div>h2 {
         font-size: 18px;
     }
 
-    .calendarContainer .calendarBox{
+    .calendarContainer .calendarBox {
         margin: auto;
     }
-    
-        
-    .calendarContainer .calendarBox > h3{
+
+
+    .calendarContainer .calendarBox>h3 {
         border-radius: 7px;
         font-size: 15px;
         margin-top: 7%;
         border: 1px solid rgb(22, 4, 61);
         margin-bottom: 6%;
     }
-    
-    .Calendar{
+
+    .Calendar {
         height: 300px;
     }
 
-    .graph  img{
+    .graph img {
         width: 100%;
         margin: auto;
     }
-    
-    .graph-1  img{
+
+    .graph-1 img {
         width: 80%;
         margin: auto;
     }
 }
-.statsBox{
+
+.statsBox {
     display: block;
     text-align: center;
-    background-color:white;
+    background-color: white;
     padding-top: 5%;
 }
 
-.statsBox > h3{
+.statsBox>h3 {
     font-size: 20px;
     border: 3px solid black;
     width: fit-content;
     margin: auto;
     border-radius: 7px;
-    background-color:white;
+    background-color: white;
     color: red;
     margin-bottom: 1%;
     padding: 4px;
 }
 
-.statsContainer{
+.statsContainer {
     display: flex;
     width: 100%;
     margin: auto;
     justify-content: center;
 }
 
-.stats-2{
+.stats-2 {
     display: block;
 }
 
-.stats-2  img{
+.stats-2 img {
     width: 70%;
     margin: auto;
 }
 
-.stats-3{
+.stats-3 {
     display: block;
 }
 
-.stats-3  img{
+.stats-3 img {
     width: 20%;
     margin: auto;
 }
 
 
-@media all and (min-width: 481px) and (max-width: 768px){
+@media all and (min-width: 481px) and (max-width: 768px) {
 
-    .statsContainer{
+    .statsContainer {
         display: flex;
         width: 90%;
         margin: auto;
         justify-content: center;
     }
-    .statsContainer > div a img{
+
+    .statsContainer>div a img {
         width: 100%;
         margin: auto;
     }
-    
-    .statsBox > h3{
+
+    .statsBox>h3 {
         font-size: 15px;
         margin-bottom: 5%;
         border: 1px solid rgb(22, 4, 61);
     }
-        
-    .stats-3{
+
+    .stats-3 {
         display: block;
         padding-top: 3%;
     }
 
-    .stats-3  img{
+    .stats-3 img {
         width: 40%;
         margin: auto;
     }
 }
 
 
-@media all and (min-width: 250px) and (max-width: 480px){
-    .statsContainer{
+@media all and (min-width: 250px) and (max-width: 480px) {
+    .statsContainer {
         display: block;
         width: 90%;
         height: 200px;
@@ -648,148 +743,163 @@ gap: 50px;
         justify-content: center;
 
     }
-    .stats-2  img{
+
+    .stats-2 img {
         width: 95%;
         margin: auto;
-       
+
     }
 
-    .statsContainer > div a img{
+    .statsContainer>div a img {
         width: 100%;
     }
-    
-    .statsBox > h3{
+
+    .statsBox>h3 {
         font-size: 13px;
         margin-bottom: 5%;
         border: 1px solid rgb(22, 4, 61);
     }
-    .stats-3{
+
+    .stats-3 {
         display: block;
-      
+
         margin-top: -20px;
     }
-    .stats-3  img{
+
+    .stats-3 img {
         width: 60%;
         margin: auto;
         margin-top: 5%;
-        
+
     }
- 
+
 }
 
 
-@media all and (min-width: 280px) and (max-width: 480px){
-    
-    .calendarContainer .calendarBox{
+@media all and (min-width: 280px) and (max-width: 480px) {
+
+    .calendarContainer .calendarBox {
         margin: auto;
     }
-        
-    .calendarContainer .calendarBox > h3{
+
+    .calendarContainer .calendarBox>h3 {
         border-radius: 7px;
         font-size: 13px;
         margin-top: 7%;
         border: 1px solid rgb(22, 4, 61);
         margin-bottom: 6%;
     }
-    .graph  img{
+
+    .graph img {
         width: 90%;
         margin: auto;
     }
-    
-    .graph-1  img{
+
+    .graph-1 img {
         width: 80%;
-        margin:auto;
+        margin: auto;
     }
-    .card{
-     
+
+    .card {
+
         width: 25%;
     }
-    
-    #skills{
+
+    #skills {
         padding-top: 110px;
     }
-    #skills>h1{
+
+    #skills>h1 {
         text-align: center;
         font-size: 25px;
     }
-    #skills>div{
-        width: 75%; 
-        grid-template-columns: repeat(2,1fr);
+
+    #skills>div {
+        width: 75%;
+        grid-template-columns: repeat(2, 1fr);
         gap: 30px;
     }
-    #skills>div>div>h2{
+
+    #skills>div>div>h2 {
         font-size: 15px;
     }
 }
 
-
-
-
-
-
 /* responsiveness */
 @media(max-width:1300px) {
-    .home .max-width{
+    .home .max-width {
         margin-left: 0px;
     }
-    .projects{
-        height:700px;
+
+    .projects {
+        height: 700px;
     }
-    .contact .content{
-        width:60%;
+
+    .contact .content {
+        width: 60%;
     }
-    .content i,.newcont i{
+
+    .content i,
+    .newcont i {
         font-size: 65px;
         color: rgb(69, 96, 163);
         margin-bottom: 13px;
     }
-    
-    .contact .content i span{
+
+    .contact .content i span {
         font-family: 'Ubuntu', sans-serif;
         font-size: 25px;
         color: #0d1117;
     }
 }
+
 @media(max-width:1300px) {
-    .home .max-width{
+    .home .max-width {
         margin-left: 0px;
     }
-    .projects{
+
+    .projects {
         width: 45%;
-        height:800px;
+        height: 800px;
     }
-    .contact .content{
-        width:60%;
+
+    .contact .content {
+        width: 60%;
     }
-    .content i,.newcont i{
+
+    .content i,
+    .newcont i {
         font-size: 65px;
         color: rgb(69, 96, 163);
         margin-bottom: 13px;
     }
-    
-    .contact .content i span{
+
+    .contact .content i span {
         font-family: 'Ubuntu', sans-serif;
         font-size: 25px;
         color: #0d1117;
     }
 }
+
 @media(max-width:1100px) {
-    .about .about-content .left img{
-        height:350px;
+    .about .about-content .left img {
+        height: 350px;
         width: 350px;
     }
-    .skills .skills-content .card .box img{
-        width:100%;
+
+    .skills .skills-content .card .box img {
+        width: 100%;
         /* height: auto; */
     }
 }
 
 @media(max-width:990px) {
-    
-    .max-width{
+
+    .max-width {
         padding: 0 50px;
     }
-    .navbar .menu{
+
+    .navbar .menu {
         position: fixed;
         height: 100vh;
         width: 100%;
@@ -800,215 +910,275 @@ gap: 50px;
         padding-top: 80px;
         transition: all 0.3s ease;
     }
-    .menu-btn{
-        display:block;
+
+    .menu-btn {
+        display: block;
         z-index: 999;
     }
-    .navbar .menu.active{
-        left:0;
+
+    .navbar .menu.active {
+        left: 0;
 
     }
-    .menu-btn i.active:before{
+
+    .menu-btn i.active:before {
         content: "\f00d";
     }
-   
-    .navbar .menu li{
+
+    .navbar .menu li {
         display: block;
     }
-    .navbar .menu li a{
+
+    .navbar .menu li a {
         display: inline-block;
         margin: 20px 0;
         font-size: 25px;
     }
-    .home .home-content .text2{
+
+    .home .home-content .text2 {
         font-size: 65px;
     }
-    .home .home-content .text3{
+
+    .home .home-content .text3 {
         font-size: 30px;
-        
+
     }
-    .home .home-content a{
+
+    .home .home-content a {
         font-size: 23px;
         padding: 10px 30px;
     }
-    .max-width{
+
+    .max-width {
         max-width: 800px;
     }
-    .about .about-content .column{
+
+    .about .about-content .column {
         width: 100%;
     }
-    .about .about-content .left{
+
+    .about .about-content .left {
         display: flex;
         justify-content: center;
         margin: 0 auto 60px;
     }
-    .about .about-content .right{
-        flex: 100%;;
+
+    .about .about-content .right {
+        flex: 100%;
+        ;
     }
-    .services .serv-content .card{
-        width:47%;
+
+    .services .serv-content .card {
+        width: 47%;
         margin-bottom: 20px;
     }
-    .skills .skills-content .card{
-        width:30%;
+
+    .skills .skills-content .card {
+        width: 30%;
         padding: 80px 25px;
         cursor: pointer;
         transition: all 0.3s ease;
     }
-    .skills .skills-content .card .box img{
-        width:80%;
-        height:100px;
+
+    .skills .skills-content .card .box img {
+        width: 80%;
+        height: 100px;
     }
-    .projects{
-        width:100%;
-        
+
+    .projects {
+        width: 100%;
+
     }
-    .content p{
+
+    .content p {
         font-size: 20px;
     }
 }
-@media (max-width:825px){
-    .contact .content{
-        width:70%;
+
+@media (max-width:825px) {
+    .contact .content {
+        width: 70%;
     }
-    .content i,.newcont i{
+
+    .content i,
+    .newcont i {
         font-size: 60px;
         color: rgb(69, 96, 163);
         margin-bottom: 12px;
     }
-    
-    .contact .content i span{
+
+    .contact .content i span {
         font-size: 18px;
         color: #0d1117;
     }
 }
+
 @media(max-width:691px) {
-    .max-width{
+    .max-width {
         padding: 0 23px;
     }
-    .home .home-content .text2{
+
+    .home .home-content .text2 {
         font-size: 55px;
     }
-    .home .home-content .text3{
+
+    .home .home-content .text3 {
         font-size: 32px;
-        
+
     }
-    .home .home-content a{
+
+    .home .home-content a {
         font-size: 20px;
     }
-    .services .serv-content .card{
-        width:100%;
+
+    .services .serv-content .card {
+        width: 100%;
     }
-    .skills .skills-content .card{
-        width:48%;
+
+    .skills .skills-content .card {
+        width: 48%;
         padding: 80px 25px;
         cursor: pointer;
         transition: all 0.3s ease;
     }
-    .skills .skills-content .card .box img{
-        width:80%;
-        height:70px;
+
+    .skills .skills-content .card .box img {
+        width: 80%;
+        height: 70px;
     }
-    .projects{
-        width:95%;
+
+    .projects {
+        width: 95%;
     }
-    .content p{
+
+    .content p {
         font-size: 18px;
     }
-    .contact .content{
-        width:80%;
+
+    .contact .content {
+        width: 80%;
     }
-    .contact .newcont{
-        width:40%;
+
+    .contact .newcont {
+        width: 40%;
         margin: auto;
         margin-top: 20px;
         justify-content: space-evenly;
         display: flex;
     }
-    .content i,.newcont i{
+
+    .content i,
+    .newcont i {
         font-size: 55px;
         color: rgb(69, 96, 163);
         margin-bottom: 10px;
     }
-    
-    .contact .content i span{
+
+    .contact .content i span {
         font-family: 'Ubuntu', sans-serif;
         font-size: 16px;
         color: #0d1117;
     }
 }
+
 @media(max-width:500px) {
-    .home .home-content .text2{
+    .home .home-content .text2 {
         font-size: 50px;
     }
-    .home .home-content .text3{
+
+    .home .home-content .text3 {
         font-size: 27px;
-        
+
     }
-    .skills .skills-content .card .box img{
-        width:80%;
-        height:40px;
+
+    .skills .skills-content .card .box img {
+        width: 80%;
+        height: 40px;
     }
-    .projects{
-        height:650px;
-        width:100%;
+
+    .projects {
+        height: 650px;
+        width: 100%;
     }
-    .contact .content{
-        width:50%;
+
+    .contact .content {
+        width: 50%;
     }
-    .contact .newcont{
-        width:50%;
+
+    .contact .newcont {
+        width: 50%;
     }
-    .content i,.newcont i{
+
+    .content i,
+    .newcont i {
         font-size: 48px;
         color: rgb(69, 96, 163);
         margin-bottom: 8px;
     }
-    
-    .contact .content i span{
+
+    .contact .content i span {
         font-family: 'Ubuntu', sans-serif;
         font-size: 13px;
         color: #0d1117;
     }
-      
+
 }
-#contact>i>span{
-font-family: sans-serif;
-color: black;
-font-weight: 100;
-font-size: 25px;
+
+#contact>i>span {
+    font-family: sans-serif;
+    color: black;
+    font-weight: 100;
+    font-size: 25px;
 }
-#tse>span{
+
+#tse>span {
     color: rgb(255, 38, 0);
     font-weight: bold;
 }
-.projects{
+
+.projects {
     border-radius: 10px;
     padding: 0px 10px 0px 10px;
 }
-#skills>div>div{
+
+#skills>div>div {
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
-#rsm{
-  background:rgb(10, 60, 82);
-  
+
+#rsm {
+    background: rgb(10, 60, 82);
+
 }
-#rsm:hover{
+
+#rsm:hover {
     background-color: crimson;
 }
 
-.content>a{
+.content>a {
     background: rgb(10, 60, 82);
 }
-.content>a:hover{
-    background:  crimson;
+
+.content>a:hover {
+    background: crimson;
 }
-.content>h2{
+
+.content>h2 {
     color: rgb(10, 60, 82);
 }
-.content>p>span{
+
+.content>p>span {
     color: black;
 }
-#abt{
+
+#abt {
     font-size: 26px;
+}
+
+.github {
+    width: 85%;
+    gap: 10px;
+    border: dashed;
+    align-self: auto;
+    margin: auto;
+    display: flex;
 }
