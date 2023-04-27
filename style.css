@@ -146,6 +146,11 @@ section .title, #skills>h1{
     padding-bottom: 20px;
     font-family: 'Ubuntu',sans-serif;
 }
+/* .ok{
+    width: 80%;
+    margin: auto;
+} */
+
 #skills>div>div>h2{
     font-family: 'Ubuntu',sans-serif;
 }
