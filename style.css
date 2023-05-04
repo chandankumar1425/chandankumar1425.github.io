@@ -903,107 +903,7 @@ section .title,
     }
 }
 
-@media(max-width:990px) {
 
-    .max-width {
-        padding: 0 50px;
-    }
-
-    .navbar .menu {
-        position: fixed;
-        height: 100vh;
-        width: 100%;
-        left: -100%;
-        top: 0;
-        text-align: center;
-        background: #111;
-        padding-top: 80px;
-        transition: all 0.3s ease;
-    }
-
-    .menu-btn {
-        display: block;
-        z-index: 999;
-    }
-
-    .navbar .menu.active {
-        left: 0;
-
-    }
-
-    .menu-btn i.active:before {
-        content: "\f00d";
-    }
-
-    .navbar .menu li {
-        display: block;
-    }
-
-    .navbar .menu li a {
-        display: inline-block;
-        margin: 20px 0;
-        font-size: 25px;
-    }
-
-    .home .home-content .text2 {
-        font-size: 65px;
-    }
-
-    .home .home-content .text3 {
-        font-size: 30px;
-
-    }
-
-    .home .home-content a {
-        font-size: 23px;
-        padding: 10px 30px;
-    }
-
-    .max-width {
-        max-width: 800px;
-    }
-
-    .about .about-content .column {
-        width: 100%;
-    }
-
-    .about .about-content .left {
-        display: flex;
-        justify-content: center;
-        margin: 0 auto 60px;
-    }
-
-    .about .about-content .right {
-        flex: 100%;
-        ;
-    }
-
-    .services .serv-content .card {
-        width: 47%;
-        margin-bottom: 20px;
-    }
-
-    .skills .skills-content .card {
-        width: 30%;
-        padding: 80px 25px;
-        cursor: pointer;
-        transition: all 0.3s ease;
-    }
-
-    .skills .skills-content .card .box img {
-        width: 80%;
-        height: 100px;
-    }
-
-    .projects {
-        width: 100%;
-
-    }
-
-    .content p {
-        font-size: 20px;
-    }
-}
 
 @media (max-width:825px) {
     .contact .content {
@@ -1191,4 +1091,10 @@ section .title,
     align-self: auto;
     margin: auto;
     display: flex;
+}
+.gitstatus{
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    /* border: 2px solid black; */
 }
