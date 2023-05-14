@@ -505,17 +505,17 @@ section .title, #skills>h1{
 #skills>div>div{
     padding: 15px 0px;
     text-align: center;
-    background-color: rgb(29, 93, 120);
+    background-color: rgb(0, 0, 0);
     border-radius: 34px;
     /* border:  2px solid red !important; */
 
 }
 #skills>div>div:hover{
-    background-color: rgba(83, 2, 2, 0.08);
+    background-color: rgba(6, 103, 177, 0.08);
     transform: scale(1.1);
     transition: 0.3s;
     cursor: pointer;
-    border: 2px solid navy;
+    border: 1px solid navy;
     border-radius: 15px;
 }
 #skills>div>div>img{
@@ -523,7 +523,7 @@ section .title, #skills>h1{
 }
 
 #skills>div>div>h2{
-    color: rgb(6,22,47);
+    color: rgb(255, 255, 255);
 }
 .project{
     background:rgb(218, 223, 223);
@@ -621,9 +621,7 @@ section .title, #skills>h1{
 
 }
 .contact{
-    margin-bottom: 20px;
-    /* padding-top: 30px; */
-    /* border: 2px solid red !important; */
+    padding-top: 30px;
     
 }
 .newcont{
