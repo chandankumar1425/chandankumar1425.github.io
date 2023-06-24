@@ -238,6 +238,7 @@ section .title::after {
 .home .home-content .text-3 span {
   color: #2253c8;
   font-weight: 500;
+  /* border: 2px solid red; */
 }
 
 .home .home-content a {
@@ -495,16 +496,18 @@ section .title::after {
 }
 
 /* project section styling */
-
+/* /////////////////////////////////////////////////////////////////////////// */
 .project .carousel .project-card {
   background: #222;
+  min-height: 55rem;
   border-radius: 6px;
   padding: 25px 35px;
   text-align:justify;
   overflow: hidden;
   transition: all 0.3s ease;
+  /* border:2px solid red */
 }
-
+/* /////////////////////////////////////////////////////////////////////// */
 .project .carousel .project-card:hover {
   background: #2253c8;
   color: white;
@@ -905,6 +908,9 @@ footer span a:hover {
     padding: 0 23px;
   }
 
+  /* .project-card{
+    min-height: 55rem;
+  } */
   .home .home-content .text-2 {
     font-size: 60px;
   }
