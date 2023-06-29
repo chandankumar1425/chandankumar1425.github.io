@@ -266,7 +266,7 @@
                             </div>
                             <div class="demo-div">
                                 <span><a class="project-deployed-link"
-                                        href="https://spontaneous-cranachan-a16490.netlify.app/" target="_blank"> Live
+                                        href="https://firstcrycom.netlify.app/" target="_blank"> Live
                                         Site
                                     </a></span>
                             </div>
@@ -519,20 +519,20 @@
                 </div>
                 <div class="column right">
                     <div class="text">Message me</div>
-                    <form action="#">
+                    <form action="#" onsubmit="sendmail(); reset(); return false;">
                         <div class="fields">
                             <div class="field name">
-                                <input type="text" placeholder="Name" required>
+                                <input type="text" id="name111" placeholder="Name" required>
                             </div>
                             <div class="field email">
-                                <input type="email" placeholder="Email" required>
+                                <input type="email" id="email111" placeholder="Email" required>
                             </div>
                         </div>
                         <div class="field">
-                            <input type="text" placeholder="Subject" required>
+                            <input type="number" id="number111" placeholder="Number" required>
                         </div>
                         <div class="field textarea">
-                            <textarea cols="30" rows="10" placeholder="Message.." required></textarea>
+                            <textarea cols="30" rows="10" id="message111" placeholder="Message.." required></textarea>
                         </div>
                         <div class="button-area">
                             <button type="submit">Send</button>
@@ -551,6 +551,7 @@
     </footer>
 
     <script src="index.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
 </body>
 
 </html>

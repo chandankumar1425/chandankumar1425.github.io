@@ -42,7 +42,7 @@ $(document).ready(function () {
   });
 
   var typed = new Typed(".typing-2", {
-    strings: ["Back-End Developer","Full Stack Devloper"],
+    strings: ["Back-End Developer", "Full Stack Devloper"],
     typeSpeed: 100,
     backSpeed: 60,
     loop: true,
@@ -93,3 +93,39 @@ function openDrive2() {
       "https://drive.google.com/file/d/1SE2qqDdIdkg07ec1m7Oloi_jYZ06-Y5q/view?usp=sharing")
   );
 }
+
+
+
+
+let myform = document.getElementById("contact")
+myform.addEventListener("submit", (e) => {
+  e.preventDefault();
+  let name = document.getElementById("name111").value;
+  let email = document.getElementById("email111").value;
+  let number = document.getElementById("number111").value;
+  let message = document.getElementById("message111").value;
+
+  let object = {
+    name: name,
+    email: email,
+    number: number,
+    message: message
+  }
+  console.log(object);
+})
+
+
+
+// function sendmail() {
+//   Email.send({
+//     Host: "smtp.gmail.com",
+//     Username: "chandankumarbehera1425@gmail.com",
+//     Password: "password",
+//     To: 'them@website.com',
+//     From:document.getElementById("email111").value,
+//     Subject: "New Contact",
+//     Body: "And this is the body"
+//   }).then(
+//     message => alert(message)
+//   );
+// }
