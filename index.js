@@ -112,6 +112,18 @@ myform.addEventListener("submit", (e) => {
     message: message
   }
   console.log(object);
+
+  fetch(`https://portfolio-database.onrender.com/post/add`, {
+    method: "POST",
+    body: JSON.stringify(object),
+    headers: {
+      "Content-type": "application/json",
+    },
+  })
+    .then((res) => res.json())
+    .then((data) => {
+      console.log(data);
+    });
 })
 
 
