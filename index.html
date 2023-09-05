@@ -15,7 +15,13 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("50kZDlt1sAdu5kMPe");
+        })();
 
+    </script>
 </head>
 
 <body>
@@ -436,9 +442,15 @@
                         <img src="./images/flipkart.jpg" alt="flipkart">
                         <div class="project-title">Flipkart - Clone</div>
                         <p class="project-description">
-                            Flipkart, founded in 2007 by Sachin Bansal and Binny Bansal, is a pioneering Indian e-commerce platform. It originated as a bookstore and evolved into a comprehensive online marketplace, offering diverse products. It has been a catalyst in shaping India's digital retail landscape, offering a convenient and wide-ranging shopping experience. Flipkart's innovative approach has made it a prominent name in the country's online commerce sector.</p>
+                            Flipkart, founded in 2007 by Sachin Bansal and Binny Bansal, is a pioneering Indian
+                            e-commerce platform. It originated as a bookstore and evolved into a comprehensive online
+                            marketplace, offering diverse products. It has been a catalyst in shaping India's digital
+                            retail landscape, offering a convenient and wide-ranging shopping experience. Flipkart's
+                            innovative approach has made it a prominent name in the country's online commerce sector.
+                        </p>
                         <p class="project-tech-stack">Tech Stack: Javascript | React.js | Bootsrap | External CSS
-                            library | Node.js | Express.js | MongoDB  | Bcrypt | cors | Redis | JWT | Razorpay Integration
+                            library | Node.js | Express.js | MongoDB | Bcrypt | cors | Redis | JWT | Razorpay
+                            Integration
                         </p>
 
                         <div class="repo-links">
@@ -551,13 +563,23 @@
                             </div>
                         </div>
 
+                        <!-- <div class="row">
+                            <a href="https://linktr.ee/chandankumar_"><i class="fas fa-envelope"></i> </a>
+                            <div class="info">
+                                <div class="sub-title"><a href="https://linktr.ee/chandankumar_"
+                                        id="contact-email">ChandanKumar_linktree</a>
+                                </div>
+                            </div>
+                        </div> -->
+
+
 
 
                     </div>
                 </div>
                 <div class="column right">
                     <div class="text">Message me</div>
-                    <form action="#" onsubmit="sendmail(); reset(); return false;">
+                    <form method="POST" onsubmit="SendMSG(event)">
                         <div class="fields">
                             <div class="field name">
                                 <input type="text" id="name111" placeholder="Name" required>
@@ -590,6 +612,7 @@
 
     <script src="index.js"></script>
     <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="./mail.js"></script>
 </body>
 
 </html>
