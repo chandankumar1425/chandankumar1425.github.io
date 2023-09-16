@@ -97,7 +97,7 @@ function openDrive2() {
 
 
 
-let myform = document.getElementById("contact")
+let myform = document.getElementById("hellochandan")
 myform.addEventListener("submit", (e) => {
   e.preventDefault();
   let name = document.getElementById("name111").value;
@@ -113,17 +113,17 @@ myform.addEventListener("submit", (e) => {
   }
   console.log(object);
 
-  fetch(`https://portfolio-database.onrender.com/post/add`, {
-    method: "POST",
-    body: JSON.stringify(object),
-    headers: {
-      "Content-type": "application/json",
-    },
-  })
-    .then((res) => res.json())
-    .then((data) => {
-      console.log(data);
-    });
+  // fetch(`https://portfolio-database.onrender.com/post/add`, {
+  //   method: "POST",
+  //   body: JSON.stringify(object),
+  //   headers: {
+  //     "Content-type": "application/json",
+  //   },
+  // })
+  //   .then((res) => res.json())
+  //   .then((data) => {
+  //     console.log(data);
+  //   });
 })
 
 
