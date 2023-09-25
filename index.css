@@ -558,9 +558,6 @@ section .title::after {
   align-items: center;
 }
 
-.project-tech-stack {
-  color: purple;
-}
 
 .demo-div a,
 .repo-div a,
