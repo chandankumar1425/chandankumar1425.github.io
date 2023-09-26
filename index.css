@@ -1175,15 +1175,21 @@ footer span a:hover {
 }
 
 .project .project-card .project-description {
+  text-align: justify;
   font-size: 16px;
   margin-bottom: 20px;
   transition: transform 0.3s ease-in-out;
+  /* border: 2px solid red; */
 }
 
 .project .project-card .project-tech-stack {
+  text-align: justify;
+
   font-size: 14px;
   margin-bottom: 5px;
   transition: transform 0.3s ease-in-out;
+  /* border: 2px solid red; */
+
 }
 
 .project .project-card .project-deployed-link,
@@ -1202,8 +1208,8 @@ footer span a:hover {
 
 .project .project-card .project-deployed-link:hover,
 .project .project-card .project-github-link:hover {
-  color: #fff;
-  background-color: #cecece;
+  color: #000000;
+  background-color: #2253c8;
 }
 
 @media (max-width: 820px) {
